@@ -134,12 +134,11 @@ body:active, input:active {
   left: -10px;
 }
 
-/*#bin-lines:after
-{
-    left: 10px;
+#bin-lines:after {
+  left: 10px;
 }
 
-#layer
+/*#layer
 {
     position: absolute;
     right: -20px;
