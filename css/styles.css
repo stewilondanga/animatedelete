@@ -159,12 +159,11 @@ body:active, input:active {
   background-color: #fff;
 }
 
-/*#checkbox:checked ~ #bin-icon #bin-lines, #checkbox:checked ~ #bin-icon #bin-lines:before, #checkbox:checked ~ #bin-icon #bin-lines:after
-{
-    background-color: #03A9F4;
+#checkbox:checked~#bin-icon #bin-lines, #checkbox:checked~#bin-icon #bin-lines:before, #checkbox:checked~#bin-icon #bin-lines:after {
+  background-color: #03A9F4;
 }
 
-#checkbox:checked + #bin-icon #box
+/*#checkbox:checked + #bin-icon #box
 {
     animation: shake 0.2s ease 0.1s;
 }
