@@ -191,14 +191,19 @@ body:active, input:active {
   }
 }
 
-/*@keyframes lift-up
-{
-    0%{ top:0; }
-    50%{ top:-35px;}
-    100%{ top:0; }
+@keyframes lift-up {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -35px;
+  }
+  100% {
+    top: 0;
+  }
 }
 
-@keyframes shake_u
+/*@keyframes shake_u
 {
     0%{ transform: rotateZ(0); }
     25%{ transform:rotateZ(-15deg); }
