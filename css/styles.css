@@ -37,22 +37,21 @@ body:active, input:active {
   height: 1.5em;
 }
 
-/*#app-cover
-{
-    position: absolute;
-    top: 50%;
-    right: 0;
-    left: 0;
-    width: 196px;
-    height: 196px;
-    margin: -98px auto 0 auto;
-    background-color: #fff;
-    border-radius: 50%;
-    box-shadow: 0 0 0 8px #feeeed;
-    overflow: hidden;
+#app-cover {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  width: 196px;
+  height: 196px;
+  margin: -98px auto 0 auto;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px #feeeed;
+  overflow: hidden;
 }
 
-#checkbox
+/*#checkbox
 {
     position: absolute;
     top: 0;
