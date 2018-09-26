@@ -17,6 +17,11 @@ body, input {
   cursor: -webkit-image-set(url(https://www.webslake.com/w_img/codepen/c1.png) 1x, url(https://www.webslake.com/w_img/codepen/c2.png) 2x) 32 32, auto;
 }
 
+body:active, input:active {
+  cursor: url(https://www.webslake.com/w_img/codepen/c1a.png) 32 32, auto;
+  cursor: -webkit-image-set( url(https://www.webslake.com/w_img/codepen/c1a.png) 1x, url(https://www.webslake.com/w_img/codepen/c2a.png) 2x) 32 32, auto;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -43,12 +48,6 @@ body, input {
 
 
 
-
-body:active, input:active
-{
-    cursor: url(https://www.webslake.com/w_img/codepen/c1a.png) 32 32, auto;
-    cursor: -webkit-image-set( url(https://www.webslake.com/w_img/codepen/c1a.png) 1x, url(https://www.webslake.com/w_img/codepen/c2a.png) 2x ) 32 32, auto;
-}
 
 #app-cover
 {
