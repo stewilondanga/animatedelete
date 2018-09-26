@@ -84,20 +84,19 @@ body:active, input:active {
   border-radius: 4px;
 }
 
-/*#lid:before
-{
-    content: '';
-    position: absolute;
-    top: -4px;
-    right: 0;
-    left: 0;
-    width: 10px;
-    height: 6px;
-    margin: 0 auto;
-    border-radius: 10px 10px 0 0;
+#lid:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  right: 0;
+  left: 0;
+  width: 10px;
+  height: 6px;
+  margin: 0 auto;
+  border-radius: 10px 10px 0 0;
 }
 
-#box
+/*#box
 {
     position: relative;
     height: 52px;
