@@ -130,12 +130,11 @@ body:active, input:active {
   position: absolute;
 }
 
-/*#bin-lines:before
-{
-    left: -10px;
+#bin-lines:before {
+  left: -10px;
 }
 
-#bin-lines:after
+/*#bin-lines:after
 {
     left: 10px;
 }
