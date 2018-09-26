@@ -96,15 +96,14 @@ body:active, input:active {
   border-radius: 10px 10px 0 0;
 }
 
-/*#box
-{
-    position: relative;
-    height: 52px;
-    margin-top: 2px;
-    border-radius: 0 0 8px 8px;
+#box {
+  position: relative;
+  height: 52px;
+  margin-top: 2px;
+  border-radius: 0 0 8px 8px;
 }
 
-#box-inner
+/*#box-inner
 {
     position: relative;
     top: 4px;
