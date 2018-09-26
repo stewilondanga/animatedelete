@@ -119,14 +119,13 @@ body:active, input:active {
   margin: 0 auto;
 }
 
-/*#bin-lines, #bin-lines:before, #bin-lines:after
-{
-    width: 3px;
-    height: 30px;
-    border-radius: 4px;
+#bin-lines, #bin-lines:before, #bin-lines:after {
+  width: 3px;
+  height: 30px;
+  border-radius: 4px;
 }
 
-#bin-lines:before, #bin-lines:after
+/*#bin-lines:before, #bin-lines:after
 {
     content: '';
     position: absolute;
