@@ -171,13 +171,12 @@ body:active, input:active {
   animation: lift-up 0.8s ease 0.1s, shake_u 0.8s ease 0.1s, shake_l 0.2s ease 0.8s;
 }
 
-/*#checkbox:checked ~ #layer
-{
-    width: 226px;
-    height: 226px;
+#checkbox:checked~#layer {
+  width: 226px;
+  height: 226px;
 }
 
-@keyframes shake
+/*@keyframes shake
 {
     0%{  transform: rotateZ(3deg); }
     25%{  transform: rotateZ(0);}
