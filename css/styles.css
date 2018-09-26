@@ -167,12 +167,11 @@ body:active, input:active {
   animation: shake 0.2s ease 0.1s;
 }
 
-/*#checkbox:checked + #bin-icon #lid
-{
-    animation: lift-up 0.8s ease 0.1s, shake_u 0.8s ease 0.1s, shake_l 0.2s ease 0.8s;
+#checkbox:checked+#bin-icon #lid {
+  animation: lift-up 0.8s ease 0.1s, shake_u 0.8s ease 0.1s, shake_l 0.2s ease 0.8s;
 }
 
-#checkbox:checked ~ #layer
+/*#checkbox:checked ~ #layer
 {
     width: 226px;
     height: 226px;
