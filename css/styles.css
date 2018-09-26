@@ -125,13 +125,12 @@ body:active, input:active {
   border-radius: 4px;
 }
 
-/*#bin-lines:before, #bin-lines:after
-{
-    content: '';
-    position: absolute;
+#bin-lines:before, #bin-lines:after {
+  content: '';
+  position: absolute;
 }
 
-#bin-lines:before
+/*#bin-lines:before
 {
     left: -10px;
 }
