@@ -163,12 +163,11 @@ body:active, input:active {
   background-color: #03A9F4;
 }
 
-/*#checkbox:checked + #bin-icon #box
-{
-    animation: shake 0.2s ease 0.1s;
+#checkbox:checked+#bin-icon #box {
+  animation: shake 0.2s ease 0.1s;
 }
 
-#checkbox:checked + #bin-icon #lid
+/*#checkbox:checked + #bin-icon #lid
 {
     animation: lift-up 0.8s ease 0.1s, shake_u 0.8s ease 0.1s, shake_l 0.2s ease 0.8s;
 }
