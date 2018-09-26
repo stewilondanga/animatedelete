@@ -150,13 +150,12 @@ body:active, input:active {
   z-index: 1;
 }
 
-/*#lid, #lid:before, #box, #bin-lines, #bin-lines:before, #bin-lines:after
-{
-    background-color: #F44336;
-    transition: 0.2s ease background-color;
+#lid, #lid:before, #box, #bin-lines, #bin-lines:before, #bin-lines:after {
+  background-color: #F44336;
+  transition: 0.2s ease background-color;
 }
 
-#checkbox:checked ~ #bin-icon #lid, #checkbox:checked ~ #bin-icon #lid:before, #checkbox:checked ~ #bin-icon #box, #checkbox:checked ~ #bin-icon #box-inner
+/*#checkbox:checked ~ #bin-icon #lid, #checkbox:checked ~ #bin-icon #lid:before, #checkbox:checked ~ #bin-icon #box, #checkbox:checked ~ #bin-icon #box-inner
 {
     background-color: #fff;
 }
