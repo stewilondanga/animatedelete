@@ -103,18 +103,17 @@ body:active, input:active {
   border-radius: 0 0 8px 8px;
 }
 
-/*#box-inner
-{
-    position: relative;
-    top: 4px;
-    width: 34px;
-    height: 44px;
-    margin: 0 auto;
-    background-color: #fff;
-    border-radius: 0 0 5px 5px;
+#box-inner {
+  position: relative;
+  top: 4px;
+  width: 34px;
+  height: 44px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
 }
 
-#bin-lines
+/*#bin-lines
 {
     position: relative;
     top: 7px;
