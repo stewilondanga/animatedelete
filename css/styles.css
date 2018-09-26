@@ -113,14 +113,13 @@ body:active, input:active {
   border-radius: 0 0 5px 5px;
 }
 
-/*#bin-lines
-{
-    position: relative;
-    top: 7px;
-    margin: 0 auto;
+#bin-lines {
+  position: relative;
+  top: 7px;
+  margin: 0 auto;
 }
 
-#bin-lines, #bin-lines:before, #bin-lines:after
+/*#bin-lines, #bin-lines:before, #bin-lines:after
 {
     width: 3px;
     height: 30px;
