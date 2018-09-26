@@ -155,12 +155,11 @@ body:active, input:active {
   transition: 0.2s ease background-color;
 }
 
-/*#checkbox:checked ~ #bin-icon #lid, #checkbox:checked ~ #bin-icon #lid:before, #checkbox:checked ~ #bin-icon #box, #checkbox:checked ~ #bin-icon #box-inner
-{
-    background-color: #fff;
+#checkbox:checked~#bin-icon #lid, #checkbox:checked~#bin-icon #lid:before, #checkbox:checked~#bin-icon #box, #checkbox:checked~#bin-icon #box-inner {
+  background-color: #fff;
 }
 
-#checkbox:checked ~ #bin-icon #bin-lines, #checkbox:checked ~ #bin-icon #bin-lines:before, #checkbox:checked ~ #bin-icon #bin-lines:after
+/*#checkbox:checked ~ #bin-icon #bin-lines, #checkbox:checked ~ #bin-icon #bin-lines:before, #checkbox:checked ~ #bin-icon #bin-lines:after
 {
     background-color: #03A9F4;
 }
