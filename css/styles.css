@@ -64,20 +64,19 @@ body:active, input:active {
   z-index: 3;
 }
 
-/*#bin-icon
-{
-    position: absolute;
-    top: 50%;
-    right: 0;
-    left: 0;
-    width: 42px;
-    height: 58px;
-    margin: -29px auto 0 auto;
-    border-radius: 50%;
-    z-index: 2;
+#bin-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  width: 42px;
+  height: 58px;
+  margin: -29px auto 0 auto;
+  border-radius: 50%;
+  z-index: 2;
 }
 
-#lid
+/*#lid
 {
     position: relative;
     width: 50px;
