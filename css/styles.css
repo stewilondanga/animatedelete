@@ -138,20 +138,19 @@ body:active, input:active {
   left: 10px;
 }
 
-/*#layer
-{
-    position: absolute;
-    right: -20px;
-    bottom: -20px;
-    width: 0;
-    height: 0;
-    background-color: #03A9F4;
-    border-radius: 50%;
-    transition: 0.25s ease all;
-    z-index: 1;
+#layer {
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+  width: 0;
+  height: 0;
+  background-color: #03A9F4;
+  border-radius: 50%;
+  transition: 0.25s ease all;
+  z-index: 1;
 }
 
-#lid, #lid:before, #box, #bin-lines, #bin-lines:before, #bin-lines:after
+/*#lid, #lid:before, #box, #bin-lines, #bin-lines:before, #bin-lines:after
 {
     background-color: #F44336;
     transition: 0.2s ease background-color;
