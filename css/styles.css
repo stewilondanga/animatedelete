@@ -1,3 +1,7 @@
+* {
+  outline: none;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,10 +25,6 @@
   height: 1.5em;
 }
 
-*
-{
-    outline: none;
-}
 
 html, body
 {
